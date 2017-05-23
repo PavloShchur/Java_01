@@ -34,7 +34,6 @@ public class Watch implements Comparable<Watch> {
 
 	@Override
 	public int compareTo(Watch o) {
-		// TODO Auto-generated method stub
 		return 0;
 	}
 
