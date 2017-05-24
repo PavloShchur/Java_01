@@ -13,7 +13,7 @@ public class Number {
 			String number = String.valueOf(inputNumber);
 			int sum = 0;
 			int newNumber = Integer.parseInt(number);
-			List<Object> list = new ArrayList<>();
+			List<Character> list = new ArrayList<>();
 			for (int i = 0; i < number.length(); i++) {
 				list.add(number.charAt(i));
 				sum = sum + Integer.parseInt(list.get(i).toString());
