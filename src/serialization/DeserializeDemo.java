@@ -8,6 +8,7 @@ public class DeserializeDemo {
 
 	public static void main(String[] args) {
 		Employee e = null;
+		
 		try{
 			FileInputStream fileIn = new FileInputStream("C:/employee.ser");
 			ObjectInputStream in = new ObjectInputStream(fileIn);
