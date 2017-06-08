@@ -1,4 +1,4 @@
-package collections_framework;
+package com.pavlo.java.util.collections;
 
 import java.util.Iterator;
 import java.util.SortedSet;
