@@ -1,6 +1,9 @@
 package com.pavlo.java.util.collections;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Iterator;
+import java.util.List;
 import java.util.ListIterator;
 
 /**
@@ -10,13 +13,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-//        List<String> list = new ArrayList<String>();
-//        list.add("a");
-//        list.add("b");
-//        list.add("c");
-//        list.add("d");
-//        list.add("a");
-//        list.add("w");
+        List<String> list = new ArrayList<String>();
+        list.add("a");
+        list.add("b");
+        list.add("c");
+        list.add("d");
+        list.add("a");
+        list.add("w");
 ////        System.out.println(list);
 ////        for (String s: list) {
 ////            System.out.println(s);
@@ -95,6 +98,27 @@ public class Main {
 			System.out.println(listIterator.previous());
 		}
         System.out.println(people);
+//        Collections.sort(list);
+//        System.out.println(list);
+        Collections.sort(people, new SortByName());
+        System.out.println(people);
+        Collections.sort(people, new SortByChoice().sortByChoice(2));
+        System.out.println(people);
+        
+        people.sort(new Comparator<Person>() {
+
+			@Override
+			public int compare(Person o1, Person o2) {
+				return o1.getName().compareTo(o2.getName());
+			}
+		});
+        
+        //lambda
+        Collections.sort(people, Comparator.comparing(Person::getAge).thenComparing(Person::getName));
+        
+        people.sort((o1, o2) -> o1.getName().compareTo(o2.getName()));
+        
+        
 
 
     }
