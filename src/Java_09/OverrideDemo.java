@@ -1,6 +1,5 @@
 package Java_09;
 
-import Java_07.Gen;
 
 public class OverrideDemo {
 
