@@ -3,6 +3,8 @@ package com.pavlo.annotations;
 import java.util.HashMap;
 import java.util.Map;
 
+//Home work put in map methods!!!!!!!!!!!!
+
 public class Map_chesen_frame {
 
 	public static void main(String[] args) {
