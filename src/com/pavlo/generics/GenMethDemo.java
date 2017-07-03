@@ -1,4 +1,4 @@
-package Java_09;
+package com.pavlo.generics;
 
 public class GenMethDemo {
 	static <T extends Comparable<T>, V extends T> boolean isIn(T x, V[] y) {

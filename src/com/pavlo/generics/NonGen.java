@@ -1,20 +1,20 @@
 package com.pavlo.generics;
 
-public class NonGen {
+ class NonGen {
+	Object ob;
 
-	Object object;
-
-	public NonGen(Object object) {
+	public NonGen(Object ob) {
 		super();
-		this.object = object;
+		this.ob = ob;
 	}
 
-	public Object getObject() {
-		return object;
+	public Object getOb() {
+		return ob;
 	}
 
-	void showType() {
-		System.out.println("This on bject : " + object.getClass().getName());
-	}
-
+	public void showType() {
+System.out.println("Обєкт ob відноситься до типу " + ob.getClass().getName());
+}
+	
+	
 }

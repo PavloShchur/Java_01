@@ -1,4 +1,4 @@
-package Java_09;
+package com.pavlo.generics;
 
 public class BridgeDemo {
 

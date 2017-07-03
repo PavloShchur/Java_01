@@ -1,7 +1,5 @@
 package com.pavlo.genInheritance;
 
-import Java_09.Gen;
-
 public class ForGen12 {
 	
 	public static void main(String[] args) {

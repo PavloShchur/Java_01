@@ -35,6 +35,12 @@ public class TwoGen <T, V>{
 		}
 	}
 	
+	public void showTypes() {
+		System.out.println("“ип T: " + object_1.getClass().getName());
+		System.out.println("“ип V: " + object_2.getClass().getName());
+
+	}
+	
 	
 	
 }
