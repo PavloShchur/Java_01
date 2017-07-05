@@ -10,9 +10,8 @@ public class Main {
 		// person.showPerson();
 
 		Person person = new Person();
-		person.setName("Petro")
-		.setAge(29)
-		.showPerson();
+		person.setName("Petro").setAge(29).showPerson();
+
 	}
 
 }
