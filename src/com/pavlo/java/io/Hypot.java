@@ -1,4 +1,4 @@
-package Java_06;
+package com.pavlo.java.io;
 
 import static java.lang.Math.sqrt;
 import static java.lang.Math.pow;

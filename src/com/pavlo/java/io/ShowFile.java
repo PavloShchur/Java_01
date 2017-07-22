@@ -1,4 +1,4 @@
-package Java_06;
+package com.pavlo.java.io;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

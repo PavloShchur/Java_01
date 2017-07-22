@@ -1,4 +1,4 @@
-package Java_06;
+package com.pavlo.java.io;
 
 import java.applet.Applet;
 import java.awt.Graphics;
