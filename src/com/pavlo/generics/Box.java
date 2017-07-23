@@ -1,4 +1,4 @@
-package generics;
+package com.pavlo.generics;
 
 public class Box<T> {
 	
