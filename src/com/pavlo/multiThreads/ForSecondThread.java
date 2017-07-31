@@ -1,4 +1,4 @@
-package com.pavlo.threads;
+package com.pavlo.multiThreads;
 
 public class ForSecondThread {
 

@@ -1,4 +1,4 @@
-package com.pavlo.esceptions;
+package com.pavlo.exception;
 
 import java.io.IOException;
 

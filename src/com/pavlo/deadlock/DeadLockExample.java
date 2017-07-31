@@ -1,6 +1,6 @@
 package com.pavlo.deadlock;
 
-import com.pavlo.threads.ThirdtClass;
+import com.pavlo.multiThreads.ThirdtClass;
 
 public class DeadLockExample {
 			

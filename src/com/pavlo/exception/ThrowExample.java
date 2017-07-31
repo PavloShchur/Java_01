@@ -1,4 +1,4 @@
-package com.pavlo.esceptions;
+package com.pavlo.exception;
 
 public class ThrowExample {
 
